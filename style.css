@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #766cf0;
+}
+.container1{
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+}
+.container1 img{
+    border-radius: 15px 15px 0px 0px;
+    width: 100%;
+}
+.container1 h1{
+    text-align: center;
+    color: #18264d;
+    font-family: 'Outfit', sans-serif;
+    margin: 35px 0px 10px 0px;
+    font-size: 25px;
+}
+.container1 p{
+    width: 70%;
+    color: #999eac;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    font-size: 14px;
+}
+/**********************************************/
+.home-price{
+    background-color:#f8f9fe ;
+    margin-top: 15px;
+    width: 80%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.info{
+    width: 50%;
+    display: flex;
+    align-items: center; 
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.img img{
+    width: 40px;
+}
+.price{
+    display: flex;
+    flex-direction: column;
+}
+.price h4{
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+}
+.price p{
+    font-size: 12px;
+}
+.change{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.change a{
+    color:#766cf0;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.payment{
+    margin-top: 15px;
+    width: 72%;
+    background-color:#766cf1;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    text-decoration: none; 
+    font-family: 'Outfit', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    box-shadow: 0px 10px 7px rgba(118, 108, 241, 0.2);
+}
+.cancel{
+    margin: 20px 0px 30px 0px;
+    color:#18264d;
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+@media only screen and (max-width: 375px) {
+    .container {
+      background-size: auto;
+    }
+    .container1 {
+      width: 90%;
+      height: auto;
+    }
+    .container1 img {
+      width: 100%;
+    }
+    .container1 h1 {
+      font-size: 20px;
+    }
+    .container1 p {
+      width: 70%;
+    }
+    .home-price {
+      width: 75%;
+    }
+    .img img {
+      width: 30px;
+    }
+    .price h4 {
+      font-size: 10px;
+    }
+    .price p {
+      font-size: 8px;
+    }
+    .change a {
+      font-size: 10px;
+    }
+  }
+
+  @media only screen and (max-width: 275px) {
+    .price h4 {
+      font-size: 9px;
+    }
+    .price p {
+      font-size: 8px;
+    }
+  }
